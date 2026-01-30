@@ -20,5 +20,17 @@ Um projeto web que exibe a **grade de pilotos da Fórmula 1 2026** de forma inte
 - **API local:** JSON Server simulando dados de pilotos  
 - **Controle de áudio:** JavaScript nativo com `Audio()`  
 
-## 🔹 Estrutura do Projeto
+##  Como Usar
+
+- 1. Clone o repositório
+  - git clone https://github.com/StherMarinho/F1_Grid_V1.git
+  - Instale o JSON Server (se ainda não tiver):
+  - npm install -g json-server
+  - Inicie a API local:
+    - json-server --watch server/db.json --port 3000
+- Abra o index.html no navegador.
+- Clique nos cards para virar e explore os filtros e ordenação.
+- Use o botão de som para ativar/desativar o tema de fundo.
+
+
 
