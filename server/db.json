@@ -8,7 +8,7 @@
             "numero": 10,
             "idade": 30,
             "titulos": 0,
-            "vitorias": 0,
+            "vitorias": 1,
             "descricao": "Piloto experiente da Alpine, consistente no meio de pelotão.",
             "imagem": "assets/images/gasly.jpg"
         },
@@ -118,7 +118,7 @@
             "numero": 41,
             "idade": 39,
             "titulos": 7,
-            "vitorias": 103,
+            "vitorias": 105,
             "descricao": "Sete vezes campeão mundial.",
             "imagem": "assets/images/hamilton.jpg"
         },
@@ -226,7 +226,7 @@
             "numero": 3,
             "idade": 28,
             "titulos": 4,
-            "vitorias": 63,
+            "vitorias": 71,
             "descricao": "Campeão mundial e estrela da Red Bull Racing.",
             "imagem": "assets/images/verstappen.jpg"
         },
@@ -262,7 +262,7 @@
             "numero": 55,
             "idade": 30,
             "titulos": 0,
-            "vitorias": 2,
+            "vitorias": 4,
             "descricao": "Piloto espanhol com experiência na F1.",
             "imagem": "assets/images/sainz.jpg"
         }
