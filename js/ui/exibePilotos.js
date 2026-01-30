@@ -9,14 +9,14 @@ export function renderizaPilotos(pilotos) {
         card.className = 'col-12 col-sm-6 col-md-3';
 
         card.innerHTML = `
-        <div class="card card-piloto bg-dark border border-dark">
+        <div class="card card-piloto bg-dark">
             <div class="card-inner">
 
                 <div class="card-frente">
                     <img src="${piloto.imagem}" alt="nome piloto" class="imagem-piloto"/>
                 </div>
 
-                <div class="card-verso">
+                <div class="card-verso bg-black">
 
                     <h5 class="nome-piloto">${piloto.nome}</h5>
 

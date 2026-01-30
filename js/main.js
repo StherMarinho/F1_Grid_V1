@@ -7,16 +7,12 @@ import {estado} from './state/estadoAplicacao.js';
 
 document.addEventListener('DOMContentLoaded', async () => {
     try {
-        // 1️⃣ Busca os pilotos da API
         const pilotos = await buscaPilotos();
 
-        // 2️⃣ Salva no estado global
         estado.pilotos = pilotos;
 
-        // 3️⃣ Renderiza na tela
         renderizaPilotos(pilotos);
 
-        // 4️⃣ Ativa comportamentos da UI
         ativaCardFlip();
         filtrosPilotos();
         inicializarMusica();
@@ -25,4 +21,21 @@ document.addEventListener('DOMContentLoaded', async () => {
     } catch (error) {
         console.error('Erro ao iniciar aplicação:', error);
     }
+});
+
+const btnTopo = document.getElementById("btnTopo");
+
+window.addEventListener("scroll", () => {
+    if (window.scrollY > 300) {
+        btnTopo.classList.add("show");
+    } else {
+        btnTopo.classList.remove("show");
+    }
+});
+
+btnTopo.addEventListener("click", () => {
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+    });
 });

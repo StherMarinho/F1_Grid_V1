@@ -16,3 +16,48 @@ button {
     width: 20px;
     height: 20px;
 }
+
+#btnTopo {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+
+    width: 44px;
+    height: 44px;
+
+    background-color: var(--color-primary);
+    color: #fff;
+    
+
+    border: none;
+    border-radius: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: pointer;
+
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(10px);
+
+    transition: 
+        opacity var(--transition-fast),
+        transform var(--transition-fast),
+        background-color var(--transition-fast);
+    z-index: 1000;
+}
+
+#btnTopo svg {
+    width: 28px;
+    height: 28px;
+}
+
+#btnTopo.show {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+

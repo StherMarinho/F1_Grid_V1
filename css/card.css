@@ -25,8 +25,8 @@
     backface-visibility: hidden;
     border-radius: 14px;
     overflow: hidden;
-    background-color: var(--card-bg);
-    border: 1px solid var(--card-border);
+    /*[background-color: var(--card-bg);*/
+    /*border: 1px solid var(--card-border);*/
 }
 
 /* FRENTE */
@@ -55,7 +55,7 @@
     padding-bottom: 0.4rem;
     margin-bottom: 0.6rem;
 
-    border-bottom: 1px solid var(--card-border);
+    border-bottom: 2px solid var(--card-border);
 }
 
 
