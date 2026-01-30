@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>F1 Grid</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="/css/variaveis.css">
+    <link rel="stylesheet" href="/css/layout.css">
+    <link rel="stylesheet" href="/css/card.css">
+    <link rel="stylesheet" href="/css/filtros.css">
+
+    
+    <audio id="musicaF1" src="assets/audio/f1-theme.mp3" loop></audio>
+
+</head>
+<body class="bg-dark text-white">
+    
+    <!-- 🔴 Header -->
+    <header class="">
+        <nav class="navbar navbar-dark bg-black border-bottom border-danger">
+            <div class="container-fluid d-flex justify-content-between align-items-center">
+                
+                <!-- Logo F1 -->
+                <img src="assets/images/f1-logo.png" alt="F1" height="40">
+                
+                <!-- Nome da aplicação -->
+                <span class="navbar-brand mx-auto fw-bold">
+                    F1 Grid 2026
+                </span>
+                
+                <!-- Logo FIA -->
+                <img src="assets/images/fia-logo.png" alt="FIA" height="35">
+                
+            </div>
+        </nav>
+        
+    </header>
+    
+    <!-- 🎛️ PAINEL DE CONTROLE -->
+    <nav class="navbar navbar-dark bg-black border-bottom border-danger ">
+        <div class="container-fluid mt-3 mb-3">
+            
+            <div class="row w-100 g-2 ">
+                
+                <!-- Filtro -->
+                <div class="col-12 col-md-4 d-flex justify-content-start ">
+                    <select id="filtroEquipe" class="form-select form-select-sm bg-black border-bottom border-danger text-white">
+                        <option value="">Todas as equipes</option>
+                        <option value="Aston Martin">Aston Martin</option>
+                        <option value="Alpine">Alpine</option>
+                        <option value="Audi">Audi</option>
+                        <option value="Cadillac">Cadillac</option>
+                        <option value="Ferrari">Ferrari</option>
+                        <option value="Haas">Haas</option>
+                        <option value="McLaren">McLaren</option>
+                        <option value="Mercedes">Mercedes</option>
+                        <option value="Racing Bulls">Racing Bulls</option>
+                        <option value="Red Bull">Red Bull</option>
+                        <option value="Williams">Williams</option>
+                    </select>
+                </div>
+                
+                <!-- Som -->
+                <div class="col-12 col-md-4 d-flex justify-content-center ">
+                    <button id="btnSom" class="btn btn-outline-light btn-sm ">
+                        <span id="iconeSom"></span>
+                    </button>
+                </div>
+                
+                <!-- Ordenação -->
+                <div class="col-12 col-md-4 d-flex justify-content-end">
+                    <select id="ordenarPor" class="form-select form-select-sm bg-black border-bottom border-danger text-white">
+                        <option value="">Ordenar por</option>
+                        <option value="titulos">Títulos</option>
+                        <option value="vitorias">Vitórias</option>
+                        <option value="idade">Idade</option>
+                    </select>
+                </div>
+                
+            </div>
+            
+        </div>
+    </nav>
+    
+    <!-- 🏎️ GRID DE PILOTOS -->
+    <main class="container">
+        <div id="gridPilotos" class="row g-4"></div>
+    </main>
+    
+    <script type="module" src="./js/main.js"></script>
+</body>
+</html>

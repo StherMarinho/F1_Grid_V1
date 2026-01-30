@@ -1,0 +1,15 @@
+:root {
+    --color-bg: #0b0b0b;
+    --color-primary: #e10600; 
+    --corCaracteristicas: #ffffff;
+    --corTextos: #b3b3b3;
+    
+    --card-bg: #141414;
+    --card-border: #2a2a2a;
+    
+    --font-title: 'Bebas Neue', sans-serif;
+    --font-default: 'Inter', sans-serif;
+    
+    --transition-fast: 0.3s ease;
+    --transition-slow: 0.6s ease;
+}
