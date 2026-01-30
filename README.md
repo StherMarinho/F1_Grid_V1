@@ -22,7 +22,7 @@ Um projeto web que exibe a **grade de pilotos da Fórmula 1 2026** de forma inte
 
 ##  Como Usar
 
-- 1. Clone o repositório
+- Clone o repositório:
   - git clone https://github.com/StherMarinho/F1_Grid_V1.git
   - Instale o JSON Server (se ainda não tiver):
   - npm install -g json-server
