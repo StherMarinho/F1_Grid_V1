@@ -1,4 +1,4 @@
-export function ordenarPilotos(pilotos, criterio) { //pilotos é um array talvez pelo id, criterio é oq será selecionado
+export function ordenarPilotos(pilotos, criterio) { //pilotos é um array, criterio é oq será selecionado para ordenar
     const copia = [...pilotos]; //copiar o array para n modificar o original
     switch (criterio) {
         case 'titulos':

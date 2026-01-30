@@ -13,7 +13,7 @@ export function renderizaPilotos(pilotos) {
             <div class="card-inner">
 
                 <div class="card-frente">
-                    <img src="${piloto.imagem}" alt="${piloto.nome}" class="imagem-piloto"/>
+                    <img src="${piloto.imagem}" alt="nome piloto" class="imagem-piloto"/>
                 </div>
 
                 <div class="card-verso">
@@ -26,6 +26,7 @@ export function renderizaPilotos(pilotos) {
                         <li><strong>Títulos:</strong> ${piloto.titulos}</li>
                         <li><strong>Vitórias:</strong> ${piloto.vitorias}</li>
                         <li><strong>Idade:</strong> ${piloto.idade}</li>
+                        <li><strong>Descrição:</strong> ${piloto.descricao}</li>
                         <li class="d-flex align-items-center gap-2">
                             <strong>Nacionalidade:</strong>
                             <img src="${piloto.nacionalidade}" alt="Bandeira" class="bandeira rounded-circle" style="width:24px; height:24px; object-fit:cover;"/>

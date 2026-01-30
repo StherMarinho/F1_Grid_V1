@@ -13,6 +13,7 @@
 
 .card-piloto.flipped .card-inner {
     transform: rotateY(180deg);
+    box-shadow: 0 10px 25px var(--vermelho);
 }
 
 /* FRENTE E VERSO */
@@ -45,13 +46,18 @@
     gap: 0.6rem;
 }
 
-.card-verso h5 {
+.card-verso h5.nome-piloto {
     font-family: var(--font-title);
     font-size: 1.6rem;
     text-align: center;
-    margin-bottom: 0.5rem;
-    color: var(--color-primary);
+    color: var(--vermelho);
+
+    padding-bottom: 0.4rem;
+    margin-bottom: 0.6rem;
+
+    border-bottom: 1px solid var(--card-border);
 }
+
 
 .card-verso ul {
     list-style: none;

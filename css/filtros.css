@@ -1,21 +1,11 @@
 select,
 button {
-    background-color: var(--card-bg);
-    color: var(--corCaracteristicas);
-    border: 1px solid var(--card-border);
     padding: 0.4rem 0.6rem;
     border-radius: 6px;
     transition: var(--transition-fast);
     cursor: pointer;
 }
 
-select:focus,
-button:hover {
-    border-color: var(--color-primary);
-    outline: none;
-}
-
-/* BOTÃO SOM */
 #btnSom {
     display: flex;
     align-items: center;

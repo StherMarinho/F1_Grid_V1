@@ -33,7 +33,7 @@
             "idade": 44,
             "titulos": 2,
             "vitorias": 32,
-            "descricao": "Veterano e bicampeão mundial na Aston Martin.",
+            "descricao": "Veterano e bicampeão mundial.",
             "imagem": "assets/images/alonso.png"
         },
         {
@@ -69,7 +69,7 @@
             "idade": 21,
             "titulos": 0,
             "vitorias": 0,
-            "descricao": "Promessa brasileira estreando na Fórmula 1.",
+            "descricao": "Promessa brasileira da Fórmula 1.",
             "imagem": "assets/images/bortoleto.jpg"
         },
         
@@ -82,7 +82,7 @@
             "idade": 36,
             "titulos": 0,
             "vitorias": 6,
-            "descricao": "Piloto mexicano experiente e vencedor de GPs.",
+            "descricao": "Piloto mexicano experiente, já pasando por equipes como: Sauber, McLaren, Force India, Racing Point e Red Bull. ",
             "imagem": "assets/images/perez.jpg"
         },
         {
@@ -94,7 +94,7 @@
             "idade": 36,
             "titulos": 0,
             "vitorias": 10,
-            "descricao": "Piloto finlandês com vasta experiência na F1.",
+            "descricao": "Piloto finlandês com vasta experiência na F1 com a Mercedes.",
             "imagem": "assets/images/bottas.jpg"
         },
         
@@ -155,7 +155,7 @@
             "idade": 26,
             "titulos": 1,
             "vitorias": 11,
-            "descricao": "Piloto britânico rápido e consistente pela McLaren.",
+            "descricao": "Piloto britânico, atual campeão mundial.",
             "imagem": "assets/images/norris.jpg"
         },
         {
@@ -179,7 +179,7 @@
             "idade": 28,
             "titulos": 0,
             "vitorias": 5,
-            "descricao": "Uma das peças centrais da Mercedes.",
+            "descricao": "Piloto mais consistente do grid atual.",
             "imagem": "assets/images/russell.jpg"
         },
         {
@@ -191,7 +191,7 @@
             "idade": 19,
             "titulos": 0,
             "vitorias": 0,
-            "descricao": "Jovem talento italiano fazendo sua estreia.",
+            "descricao": "Jovem talento italiano, grande aposta da Mercedes.",
             "imagem": "assets/images/antonelli.jpg"
         },
         {
@@ -203,7 +203,7 @@
             "idade": 23,
             "titulos": 0,
             "vitorias": 0,
-            "descricao": "Novo companheiro de Verstappen na Red Bull.",
+            "descricao": "Jovem piloto neozelandês.",
             "imagem": "assets/images/lawson.jpg"
         },
         {
@@ -215,7 +215,7 @@
             "idade": 18,
             "titulos": 0,
             "vitorias": 0,
-            "descricao": "Piloto britânico talentoso na Racing Bulls.",
+            "descricao": "Jovem piloto britânico, fará sua estreia na equipe Racing Bulls.",
             "imagem": "assets/images/Lindblad.jpg"
         },
         {
@@ -227,7 +227,7 @@
             "idade": 28,
             "titulos": 4,
             "vitorias": 71,
-            "descricao": "Campeão mundial e estrela da Red Bull Racing.",
+            "descricao": "4x campeão mundial e estrela da Red Bull Racing.",
             "imagem": "assets/images/verstappen.jpg"
         },
         {
@@ -239,7 +239,7 @@
             "idade": 20,
             "titulos": 0,
             "vitorias": 0,
-            "descricao": "Piloto francês talentoso na Racing Bulls.",
+            "descricao": "Piloto francês que obteve grande êxito na Racing Bulls.",
             "imagem": "assets/images/hadjar.jpg"
         },
         {
@@ -263,7 +263,7 @@
             "idade": 30,
             "titulos": 0,
             "vitorias": 4,
-            "descricao": "Piloto espanhol com experiência na F1.",
+            "descricao": "Piloto espanhol com experiência na F1, obtendo 2 pódios pela Williams.",
             "imagem": "assets/images/sainz.jpg"
         }
     ]
