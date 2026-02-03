@@ -39,3 +39,11 @@ btnTopo.addEventListener("click", () => {
         behavior: "smooth"
     });
 });
+
+function atualizarAnoNoTitulo() {
+    const anoAtual = new Date().getFullYear();
+    const titulo = document.getElementById("tituloPagina");
+    titulo.textContent = `F1 GRID -  ${anoAtual}`;
+}
+
+atualizarAnoNoTitulo();
